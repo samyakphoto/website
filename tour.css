@@ -1,0 +1,68 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  SamyakPhotography
+Updated: August 2023
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+/* Social Media Footer for bootstrap 4 */
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 1px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #b3b2b2;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}

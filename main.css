@@ -1,0 +1,200 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+body {
+	background: #373737;
+	color: #eee;
+}
+
+footer {
+	background: #333;
+	color: #f69c28;
+	font-size: 11px;
+	padding: 20px;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+/* Below body tag only for better reading and contrast around font. If not needed for all text, need to do only for specific types. */
+body{
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	/* padding: 70px; */
+}
+
+ul.unstyled {
+	list-style: none;
+	padding: 0px;
+}
+
+.well .page-header{
+	margin-top: 0px;
+}
+.well .page-header h1{
+	font-size: 18px;
+	margin-top: 0px;
+}
+.well .page-header h1 small{
+	font-size: 18px;
+}
+
+.story h3 {
+	font-family: "Lucida Handwriting";
+	font-size: 28px;
+	color: #00ff34;
+}
+
+.title h4 {
+	font-size: 22px;
+	color: #f69f13;
+	background-color: #333;
+	text-align: center;
+
+}
+
+.updates h4 {
+	font-size: large;
+	color: #ff8500;
+
+}
+
+.updates a {
+	color: #00a7ff;
+}
+
+.updates a:hover {
+	color: #ffbb00;
+}
+
+.htext {
+	color: #3de5eb;
+}
+.htext a {
+	color: #3de5eb;
+}
+
+.htext a:hover {
+	color: #00a7ff;
+}
+
+
+.col-sm-4 h4 {
+	font-size: large;
+	color: #ff8500;
+
+}
+
+.col-sm-4 a {
+	color: #00a7ff;
+}
+
+.col-sm-4 a:hover {
+	color: #ffbb00;
+}
+
+/* Create three equal columns that floats next to each other */
+.col-3 {
+  float: left;
+  width: 33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel {
+	margin-top: 60px;
+}
+.carousel-caption{
+	font-size: 24px;
+}
+.carousel-caption h4{
+	font-size: 32px;
+}
+#myCarousel .item{height: 400px;}
+#slide1{
+	background: url('carousel-images/crsl1.jpg') top center no-repeat;
+}
+#slide2{
+	background: url('carousel-images/crsl2.jpg') top center no-repeat;
+}
+#slide3{
+	background: url('carousel-images/crsl5.jpg') top center no-repeat;
+}
+#slide4{
+	background: url('carousel-images/crsl4.jpg') top center no-repeat;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.well {
+	margin: 20px 0px;
+	background: #373737;
+	color: #eee;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+#myCarousel .item{height: 310px;}
+
+#slide1{
+	background: url('carousel-images/crsl1-small.jpg') top center no-repeat;
+}
+#slide2{
+	background: url('carousel-images/crsl2-small.jpg') top center no-repeat;
+}
+#slide3{
+	background: url('carousel-images/crsl5-small.jpg') top center no-repeat;
+}
+#slide4{
+	background: url('carousel-images/crsl4-small.jpg') top center no-repeat;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-3 {
+    width: 100%;
+		padding:0px 25px;
+  }
+
+.carousel-caption{
+	font-size: 14px;
+}
+.carousel-caption h4{
+	font-size: 20px;
+}
+
+
+
+}
